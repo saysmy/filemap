@@ -35,6 +35,10 @@ filemap <-i folder-name folder-name folder-name ...>
 ```
 - <-i folder-name>: In order to ignore some folders which contains lots of files and folders, such as `node_modules` etc, you could use this command to avoid them to be unfolded. Use blank to split each `folder-name`.
 
+```
+filemap -i folder1
+```
+
 ## Update
 Set the `filemap.js` into global command.
 
